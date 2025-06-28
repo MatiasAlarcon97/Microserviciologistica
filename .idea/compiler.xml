@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="PerfulandiaSpa2" />
         <module name="MicroservicioLogistica" />
       </profile>
     </annotationProcessing>
@@ -17,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MicroservicioLogistica" options="-parameters" />
+      <module name="PerfulandiaSpa2" options="-parameters" />
     </option>
   </component>
 </project>
